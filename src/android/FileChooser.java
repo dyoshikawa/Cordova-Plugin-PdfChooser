@@ -160,7 +160,7 @@ public class FileChooser extends CordovaPlugin {
             if (intent == null){
                 intent = new Intent(Intent.ACTION_GET_CONTENT);
                 intent.addCategory(Intent.CATEGORY_OPENABLE);
-                intent.setType("*/*");
+                intent.setType("application/pdf");
             }
 
             if(capture){
